@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="stylesheet" href="stylesheets/style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,
         initial-scale=1.0">
@@ -12,7 +13,6 @@
         <header>
             <h1>José Gabriel Marin Molina</h1>
             <p>Estudiante | josmmoli@espol.edu.ec | 0992275869</p>
-            <img src="https://placehold.co/600x400" alt="Imagen de ejemplo">
         </header>
         <nav>
             <ul>
@@ -25,16 +25,12 @@
         </nav>
         <main>
             <section id="resumen">
-                <h2>Resumen</h2>
+                <h2 class="subtitle">Resumen</h2>
                 <p>He realizado proyectos personales básicos con HTML y CSS. Conocimiento en Java y Python para desarrollo de proyectos.</p>
-                <video controls autoplay muted preload="auto" poster="poster.jpg">
-                    <source src="video.mp4" type="video/mp4">
-                    <source src="video.webm" type="video/webm">
-                    Tu navegador no soporta el video.
-                </video>
+                <img id="photo" src="https://placehold.co/600x400" alt="photo">
             </section>
             <section id="experiencia">
-                <h2>Experiencia</h2>
+                <h2 class="subtitle">Experiencia</h2>
                 <table>
                     <thead>
                     <tr>
@@ -54,7 +50,7 @@
 
             </section>
             <section id="educacion">
-                <h2>Educación</h2>
+                <h2 class="subtitle">Educación</h2>
                 <ol>
                     <li>2022 - 2024</li>
                     <li>UESF</li>
@@ -63,29 +59,35 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.1542201309!2d-79.9637504!3d-2.1463039999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Politecnica%20del%20Litoral!5e0!3m2!1sen!2sec!4v1728502241789!5m2!1sen!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
             <section id="habilidades">
-                <h2>Habilidades</h2>
+                <h2 class="subtitle">Habilidades</h2>
             </section>
             <section id="proyectos">
-                <h2>Proyectos</h2>
+                <h2 class="subtitle">Proyectos</h2>
             </section>
             <section id="contactanos">
-                <h2>Contáctanos</h2>
+                <h2 class="subtitle">Contáctanos</h2>
                 <form>
-                    <label for="nombre">Nombre Completo:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                    <label for="email">Correo Electrónico:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="experiencia">Experiencia Laboral:</label>
-                    <textarea id="experiencia" name="experiencia" rows="5"
-                    required></textarea>
-                    <label for="educacion">Educación:</label>
-                    <textarea id="educacion" name="educacion" rows="5"
-                    required></textarea>
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    
+                        <label for="experiencia">Experiencia Laboral:</label>
+                        <textarea id="experiencia" name="experiencia" rows="5"
+                        required></textarea>
+                    
+                        <label for="educacion">Educación:</label>
+                        <textarea id="educacion" name="educacion" rows="5"
+                        required></textarea>
+                    
+                    
+                    
                     <label>Habilidades Técnicas:</label><br>
-                    <input type="checkbox" name="habilidades" value="HTML"> HTML
-                    <input type="checkbox" name="habilidades" value="CSS"> CSS
-                    <input type="checkbox" name="habilidades" value="JavaScript">
-                    JavaScript
+                    <div> <input type="checkbox" name="habilidades" value="HTML"> <span>HTML</span> </div>
+                    <input type="checkbox" name="habilidades" value="CSS">CSS
+                    <input type="checkbox" name="habilidades" value="JavaScript">JavaScript
+
                     <label for="intereses">Intereses:</label>
                     <select id="intereses" name="intereses">
                     <option value="desarrollo">Desarrollo Web</option>
