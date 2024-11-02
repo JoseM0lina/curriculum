@@ -1,111 +1,161 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <link rel="stylesheet" href="stylesheets/style.css">
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,
-        initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Jose Marin">
-        <title>Mi Currículum Vitae</title>
-        <link rel="stylesheet" href="styles.css">
+        <meta name="keywords" content="Currículum, José Marin, Desarrollo, Programación, Tecnología, CV">
+        <meta name="description" content="Currículum de Marin, un profesional en desarrollo tecnológico. Aquí puedes encontrar información sobre mi experiencia y habilidades.">
+        <title>CV - José Marin</title>
+        <link rel="stylesheet" href="stylesheets/style.css">
     </head>
     <body>
         <header>
-            <h1>José Gabriel Marin Molina</h1>
-            <p>Estudiante | josmmoli@espol.edu.ec | 0992275869</p>
+            <h1>Hola, soy José Marin Molina</h1>
+            <img class="aspect-square h-full w-full" src="/images/erfil.jpg" alt="Imagen de perfil">
+            <p>Estudiante de Ingenieria en Computación | Programador Junior </p>
+            <div class="enlaces">
+                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 w-10"><a target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-gabriel-marin-molina-75566a294/"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin "><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a></button>
+                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 w-10"><a target="_blank" href="https://github.com/JoseM0lina"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github "><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a></button>
+            </div>
         </header>
         <nav>
             <ul>
-                <li><a href="#resumen">Resumen</a></li>
+                <li><a href="#resumen">Información</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#educacion">Educación</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#proyectos">Habilidades</a></li>
+                <li><a href="#contactame">Contacto</a></li>
             </ul>
         </nav>
         <main>
             <section id="resumen">
-                <h2 class="subtitle">Resumen</h2>
-                <p>He realizado proyectos personales básicos con HTML y CSS. Conocimiento en Java y Python para desarrollo de proyectos.</p>
-                <img id="photo" src="https://placehold.co/600x400" alt="photo">
+                <h2 class="subtitle">Información</h2>
+                <div class="info-person">
+                    <p>Soy un programador junior con un gran interés por la tecnología y el desarrollo de aplicaciones de escritorio. Durante mi formación académica en Ingeniería en Computación, he adquirido sólidos conocimientos en diversos lenguajes de programación y fundamentos teóricos que me permiten innovar y resolver problemas de manera efectiva. Disfruto compartir los aprendizajes que he adquirido a lo largo de mi carrera; por esa razón, fui ayudante catedrático en la materia de Fundamentos de Programación, donde pude desarrollar aún más mis conocimientos técnicos y mis habilidades sociales. Me especializo en el desarrollo de aplicaciones de escritorio y en el manejo de bases de datos, con experiencia en Python, Java y SQL. Me gusta enfrentarme a nuevos desafíos multidisciplinarios que me permitan enriquecer mis conocimientos.</p>
+                    <div class="motive">
+                        <h3 class="frase">¡Transforma el futuro!</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wg3tIeVUcHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
             </section>
             <section id="experiencia">
                 <h2 class="subtitle">Experiencia</h2>
-                <table>
-                    <thead>
-                    <tr>
-                    <th>Empresa</th>
-                    <th>Puesto</th>
-                    <th>Años de experiencia</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                    <td>Acme Corporation</td>
-                    <td>Desarrollador web</td>
-                    <td>3</td>
-                    </tr>
-                    </tbody>
-                </table>
-
+                <div class="experience-list">
+                <div class="left-column">
+                    <table class="vertical-table">
+                        <thead>
+                            <tr>
+                                <th>Empresa</th>
+                                <td>Escuela Superior Politécnica del Litoral</td>
+                            </tr>
+                            <tr>
+                                <th>Puesto</th>
+                                <td>Ayudante catedrático de la materia de Fundamentos de Programación</td>
+                            </tr>
+                            <tr>
+                                <th>Certificado</th>
+                                <td>
+                                    <a href="public/certificado.pdf" class="pdf-link" target="_blank">
+                                        <span class="pdf-icon">📄</span> Download here
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="right-column">
+                    <iframe src="public/certificado.pdf" class="pdf-preview" title="Vista previa del PDF"></iframe>
+                </div>
+                </div>
             </section>
             <section id="educacion">
                 <h2 class="subtitle">Educación</h2>
-                <ol>
-                    <li>2022 - 2024</li>
-                    <li>UESF</li>
-                    <li>ESPOL</li>
-                </ol>                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.1542201309!2d-79.9637504!3d-2.1463039999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Politecnica%20del%20Litoral!5e0!3m2!1sen!2sec!4v1728502241789!5m2!1sen!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="datosedu">
+                    <p>Me gradué de bachiller en la Unidad Educativa Sagrada Familia, donde desarrollé habilidades para trabajar en equipo, resolver problemas de forma estructurada y adquirí una sólida disciplina y responsabilidad para cumplir con mis compromisos. En la actualidad me encuentro cursando la carrera de Computación en la Escuela Superior Politécnica del Litoral.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.1542201309!2d-79.9637504!3d-2.1463039999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Politecnica%20del%20Litoral!5e0!3m2!1sen!2sec!4v1728502241789!5m2!1sen!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </section>
             <section id="habilidades">
                 <h2 class="subtitle">Habilidades</h2>
+                <p>Tengo conocimiento en los siguientes lenguajes de programación:</p>
+                <div  class="lista-imagenes">
+                    <ul>
+                        <li>
+                            <img src="/images/piton.png" alt="Imagen 1">
+                            <div class="text-super">Python</div>
+                        </li>
+                        <li>
+                            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Imagen 2">
+                            <div class="text-super">Java</div>
+                        </li>
+                        <li>
+                            <img src="https://cdn-icons-png.freepik.com/256/17266/17266017.png?semt=ais_hybrid" alt="Imagen 3">
+                            <div class="text-super">SQL</div>
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="Imagen 4">
+                            <div class="text-super">C</div>
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/800px-R_logo.svg.png" alt="Imagen 5">
+                            <div class="text-super">R</div>
+                        </li>
+                        <li>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Arduino_Logo_Registered.svg/800px-Arduino_Logo_Registered.svg.png" alt="Imagen 9">
+                            <div class="text-super">Arduino</div>
+                        </li>
+                        <li>
+                            <img src="https://avatars.githubusercontent.com/u/288276?s=200&v=4" alt="Imagen 10">
+                            <div class="text-super">Numpy</div>
+                        </li>
+                    </ul>
+                </div>
             </section>
             <section id="proyectos">
                 <h2 class="subtitle">Proyectos</h2>
+                <p>He desarrollado una plataforma de gestión de ventas de vehículos que permite a los clientes acceder a un catálogo, marcar vehículos como favoritos y realizar compras, mientras que los vendedores pueden añadir, editar y administrar información sobre los vehículos. Además, aproveché las fortalezas en el manejo de estructuras de datos para desarrollar un juego de adivinanza de palabras en el que el jugador piensa en una palabra y la aplicación intenta adivinarla mediante una serie de preguntas.</p>
+                <div class="projects">
+                    <a href="https://github.com/elP0l/ED_P1_Grupo07">
+                        <img class="img-left" src="images/proyecto1.png" alt="Imagen 6">
+                    </a>
+                    <a href="https://github.com/elP0l/ED.P1.Grupo07">
+                        <img class="img-right" src="images/proyecto2.png" alt="Imagen 7">    
+                    </a>
+                </div>
             </section>
-            <section id="contactanos">
-                <h2 class="subtitle">Contáctanos</h2>
+            <section id="contactame">
+                <h2 class="subtitle">Contáctame</h2>
                 <form>
-                        <label for="nombre">Nombre Completo:</label>
-                        <input type="text" id="nombre" name="nombre" required>
-
-                        <label for="email">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" required>
-                    
-                        <label for="experiencia">Experiencia Laboral:</label>
-                        <textarea id="experiencia" name="experiencia" rows="5"
-                        required></textarea>
-                    
-                        <label for="educacion">Educación:</label>
-                        <textarea id="educacion" name="educacion" rows="5"
-                        required></textarea>
-                    
-                    
-                    
-                    <label>Habilidades Técnicas:</label><br>
-                    <div> <input type="checkbox" name="habilidades" value="HTML"> <span>HTML</span> </div>
-                    <input type="checkbox" name="habilidades" value="CSS">CSS
-                    <input type="checkbox" name="habilidades" value="JavaScript">JavaScript
-
-                    <label for="intereses">Intereses:</label>
-                    <select id="intereses" name="intereses">
-                    <option value="desarrollo">Desarrollo Web</option>
-                    <option value="diseno">Diseño Gráfico</option>
-                    <option value="marketing">Marketing Digital</option>
-                    </select>
-                    <button type="submit">Enviar</button>
+                    <div class="formulario">
+                        <div class="datos">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Andrés Macias Llerena" required>
+                        </div>
+                        <div class="datos">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" placeholder="Ej: example@example.com" required>
+                        </div>
+                        <div class="datos">
+                            <label for="asunto">Asunto:</label>
+                            <input type="text" id="asunto" name="asunto" placeholder="Ej: Desarrollo web" required>
+                        </div>
+                        <div class="datos">
+                            <label for="comentarios">Mensaje:</label>
+                            <textarea id="comentarios" name="comentarios" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+                        <button class="botoncito" type="submit">Enviar</button>
+                    </div>
+                    <img src="https://img.freepik.com/fotos-premium/pongase-contacto-nosotros-o-linea-directa-atencion-al-cliente-personas-conectan-cierre-hombre-negocios-sosteniendo-tableta-usando-dispositivo-contactar-personas-o-informacion-contacto-negocio-contactenos_256259-3378.jpg" alt="Imagen 8">
                 </form>
             </section>
         </main>
         <footer>
             <p>© Jose Marin - 2024</p>
-            <iframe width="560" height="315" src="https://youtu.be/embed/voOYWUcwF8g?si=hFeJEgq0SNj6heBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <ul>
-                <li><a
-                    href="https://www.linkedin.com/in/tunombre">LinkedIn</a></li>
-                <li><a href="https://josem0lina.github.io/JoseM0lina/">GitHub</a></li>
-            </ul>
+            <div class="enlaces">
+                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 w-10 bg-transparent"><a target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-gabriel-marin-molina-75566a294/"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin "><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a></button>
+                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 w-10 bg-transparent"><a target="_blank" href="https://github.com/JoseM0lina"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github "><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a></button>
+            </div>
         </footer>
     </body>
 </html>
